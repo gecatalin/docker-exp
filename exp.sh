@@ -6,5 +6,5 @@ docker run \
        -v /dev/bus/usb:/dev/bus/usb \
        -v $(pwd):/root/app \
        -v "~/.exponent":/root/.exponent \
-       exp-cli \
+       gecatalin/exp-cli \
        exp "$@"
